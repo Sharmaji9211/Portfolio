@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Shivam Sharma</title>
+</head>
+<body>
+    <div id="header" data-aos="zoom-out"  data-aos-duration="3000" >
+        <div class="contianer">
+            <nav>
+                <img data-aos="zoom-in"  data-aos-duration="3000"  src="img/logo.jpg" class="logo">
+                <ul data-aos="fade-down"  data-aos-duration="3000" id="sidemenu" >
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div data-aos="fade-right"  data-aos-duration="3000" class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span> Shivam</span> <br>Sharma From Bareilly</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------About------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/1000099045.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-heading">About Me</h1>
+                    <p>I’m Shivam Sharma, a passionate Frontend Developer and IoT Enthusiast, currently pursuing a B.Tech in Computer Science and Engineering (IoT) at Greater Noida Institute of Technology. My expertise lies in Java, JavaScript, HTML, CSS, MySQL, and C programming, with a strong foundation in problem-solving and web development.
+
+                        I have worked on multiple projects, including IoT-based automation, smart systems, and web applications, showcasing my ability to merge software with innovative hardware solutions.
+                        
+                        Beyond coding, I am a competitive volleyball player, having achieved 1st place at the college level and 3rd place at the AKTU Zonal Tournament. Additionally, I have earned a certification in Employability Skills from TPC Global, enhancing my teamwork, communication, and leadership abilities.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')" >Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java Developer</span><br>Core java</li>
+                        <li><span>Web Development</span><br>Html,Css,JavaScript,React.Js</li>
+                        <li><span>Database</span><br>MySQL</li>
+                        <li><span>Internet of Things</span><br>Internet of Things</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Fresher </span><br>College Student</li>
+                         
+                    </ul>
+                </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Pursuing</span><br>B.Tech From Greater Noida Institute of Technology</li>
+                            <li><span>2019</span><br>12th From State Board</li>
+                            <li><span>2017</span><br>10th From State Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------------services----------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-heading">My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Developer</h2>
+                    <p></p>
+                    <a href="#"> </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p></p>
+                    <a href="#"> </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>IoT Developer</h2>
+                    <p></p>
+                    <a href="#"> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------Portfolio------------------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-heading">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/1000062664.jpg" alt="">
+                    <div class="layer">
+                        <h3>Fire Fighting Robot</h3>
+                        <P>• Deploy IoT sensors to detect fire, responding within 5 seconds for quick action.
+                            • Alert nearest fire station automatically via GPS 800L module when fire is detected instantly.
+                            • Activate emergency alarms when fire is detected 24/7.
+                            </P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" >
+                    <img src="./img/IMG-20241226-WA0009.jpg" alt="">
+                    <div class="layer">
+                    <h3>Smart Class Room </h3>
+                    <P>"IoT  Systems enthusiast with hands-on experience in designing and implementing smart automation solutions.
+                         Lead a team in developing an IoT-based motion sensor system using ESP32 and PIR sensors for automatic control of lights and fans in smart lecture halls.
+                         </P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+                </div>
+                <div class="work">
+                    <img src="./img/Screenshot (9).png" alt="">
+                    <div class="layer">
+                    <h3>News Website </h3>
+                    <P>Display categorized news in sections: education, sports, entertainment, and daily updates.
+                        • Enable JSON format for seamless data handling, ensuring API processes 100 requests daily.
+                        • Optimize news loading speed, ensuring articles display within 1 second across all devices.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+   <!------------------------------------------------------contact---------------------------------------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-heading">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i>shivamsharma03052002@gmail.com</p>
+            <p><i class="fa-solid fa-mobile-screen"></i>8006802372</p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/shivam-sharma-3a3a3b256/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/shivamsharma2868/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Sharmaji9211"><i class="fa-brands fa-github"></i></a>
+                <a href="https://web.snapchat.com/?ref=homepage_auto_redirect"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+            <a href="./img/Mr_Shivam_Sharma_Resume_FINAL.pdf" class="btn btn1">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Meaasge"></textarea>
+                <button type="submit" class="btn btn1">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>
+        copyright <i class="fa-solid fa-heart"></i>
+    </p>
+</div>
+</div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/91853d5052.js"crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+      
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwajIN39MPzwOy3SxGpWXpIDK6rccA0k4p3Hr2gfLxneRHTprCYH1WqhV47fQMqQntTzw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => { msg.innerHTML=" Message sent Successfully"}) 
+      setTimeout(function(){
+        msg.innerHTML=""
+      },5000)
+      form.reset()
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
